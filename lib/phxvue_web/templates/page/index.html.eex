@@ -1,0 +1,14 @@
+<table id="posts">
+  <thead>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Body</th>
+  </thead>
+  <tbody>
+    <tr v-for="post in posts"> 
+      <td>{{ post.id }}</td>
+      <td>{{ post.title }}</td>
+      <td>{{ post.body }}</td>
+    </tr>
+  </tbody>
+</div>
